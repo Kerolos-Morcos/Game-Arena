@@ -246,7 +246,7 @@ header {
   height: 3px;
   background: linear-gradient(to right, var(--primary-color), #0000);
 }
-.special-text h2 {
+.what-text h2 {
   color: var(--secondary-color);
   font-size: 48px;
   font-weight: 900;
@@ -296,7 +296,7 @@ header {
   & button.secondary-button::after {
     background: unset;
   }
-  i{
+  i {
     cursor: pointer;
   }
 }
@@ -535,6 +535,10 @@ header {
 }
 .our-team-text h2 {
   font-size: 45px;
+  color: var(--secondary-color);
+  font-weight: 900;
+  line-height: 45px;
+  margin-top: 5px;
 }
 
 .team-member-card {

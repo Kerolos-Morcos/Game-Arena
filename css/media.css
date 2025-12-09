@@ -58,11 +58,6 @@
     font-weight: 600;
   }
   /* Our Games Section */
-  .special-text h2 {
-    font-size: 35px;
-    margin-top: 15px;
-    line-height: 0px;
-  }
   .carousel-item-img {
     width: calc(100% - 8px);
   }
@@ -72,11 +67,13 @@
   .game-card {
     padding: 45px 0px;
   }
-  .what-text h2,
-  .what-text h3 {
-    font-size: 30px;
+  .what-text h2 {
+    font-size: 28px;
+    margin-top: 15px;
+    line-height: 0px;
   }
   .what-text h3 {
+    font-size: 25px;
     margin-top: 15px;
   }
   .game-card h4 {
@@ -96,6 +93,18 @@
   }
   .our-team-text h2 {
     font-size: 30px;
+  }
+  .our-team-text h5 {
+    color: #8f97a4;
+    padding: 25px 0 50px;
+    font-size: 18px;
+  }
+  .our-team-text h2 {
+    font-size: 25px;
+    color: var(--secondary-color);
+    font-weight: 900;
+    line-height: 45px;
+    margin-top: 5px;
   }
   /* Contact */
   .contact-us-info-cards {
@@ -196,6 +205,27 @@
   .game-card {
     padding: 70px 0px;
   }
+  .what-text h2 {
+    font-size: 28px;
+    margin-top: 15px;
+    line-height: 0px;
+  }
+  .what-text h3 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .our-team-text h5 {
+    color: #8f97a4;
+    padding: 25px 0 50px;
+    font-size: 22px;
+  }
+  .our-team-text h2 {
+    font-size: 30px;
+    color: var(--secondary-color);
+    font-weight: 900;
+    line-height: 45px;
+    margin-top: 5px;
+  }
   /* sponsors */
   #sponsors::before {
     content: "";
@@ -257,6 +287,25 @@
   }
   .game-card {
     padding: 150px 0px;
+  }
+  .what-text h2 {
+    font-size: 48px;
+    line-height: 45px;
+    margin-top: 5px;
+  }
+  .what-text h3 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+  }
+  .our-team-text h5 {
+    font-size: 20px;
+  }
+  .our-team-text h2 {
+    font-size: 45px;
+    line-height: 45px;
+    margin-top: 5px;
   }
   /* sponsors */
   #sponsors::before {
